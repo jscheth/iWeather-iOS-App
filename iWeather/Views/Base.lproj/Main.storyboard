@@ -113,7 +113,7 @@
                     </view>
                     <connections>
                         <outlet property="conditionImageView" destination="7Pa-rG-5kz" id="Q7J-9Y-6ZU"/>
-                        <outlet property="conditionLabel" destination="ffz-8D-FSA" id="tMh-E7-cUV"/>
+                        <outlet property="conditionLabel" destination="ffz-8D-FSA" id="JBM-QI-38U"/>
                         <outlet property="searchTextField" destination="IEZ-Cu-1pT" id="tlY-hh-6eZ"/>
                         <outlet property="temperatureLable" destination="EHk-vb-NqI" id="UdY-u7-iBr"/>
                     </connections>
@@ -129,7 +129,7 @@
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
         <image name="sun.max" catalog="system" width="128" height="125"/>
         <namedColor name="weatherColor">
-            <color red="0.10416676104068756" green="0.13306355476379395" blue="0.036433737725019455" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.10399999469518661" green="0.13300001621246338" blue="0.035999998450279236" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
