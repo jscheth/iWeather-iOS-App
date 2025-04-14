@@ -115,12 +115,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="background" width="662" height="662"/>
+        <image name="background" width="360" height="640"/>
         <image name="location.circle.fill" catalog="system" width="128" height="123"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
         <image name="sun.max" catalog="system" width="128" height="125"/>
         <namedColor name="weatherColor">
-            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.10416676104068756" green="0.13306355476379395" blue="0.036433737725019455" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
