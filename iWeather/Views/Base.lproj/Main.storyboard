@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Weather View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="iWeather" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="WeatherViewController" customModule="iWeather" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="g2N-l6-5JV">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -49,6 +49,9 @@
                                                 </constraints>
                                                 <color key="tintColor" systemColor="labelColor"/>
                                                 <state key="normal" backgroundImage="magnifyingglass" catalog="system"/>
+                                                <connections>
+                                                    <action selector="searchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ub6-xn-4qx"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -108,6 +111,12 @@
                             <constraint firstItem="YZm-1y-5b0" firstAttribute="bottom" secondItem="Mp2-cN-lWM" secondAttribute="bottom" id="x3S-fX-sje"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="conditionImageView" destination="7Pa-rG-5kz" id="Q7J-9Y-6ZU"/>
+                        <outlet property="conditionLabel" destination="ffz-8D-FSA" id="tMh-E7-cUV"/>
+                        <outlet property="searchTextField" destination="IEZ-Cu-1pT" id="tlY-hh-6eZ"/>
+                        <outlet property="temperatureLable" destination="EHk-vb-NqI" id="UdY-u7-iBr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
